@@ -58,3 +58,5 @@ Open the notebook in Jupyter and run all cells. Data doenloads live via yfinance
 - pandas
 - numpy
 - matplotlib
+## Notebook
+[View notebook on nbviewer](https://nbviewer.org/github/SaitirthaBehera/stock-direction-predictor/blob/main/stock_direction_predictor_lstm_model.ipynb)
