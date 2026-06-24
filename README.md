@@ -4,7 +4,7 @@ A deep learning project that predicts the next-day price direction (UP/DOWN) of 
 **Final Accuracy:** 54.88% ,**BUY Accuracy:** 53.96%, 
 **SELL Accuracy:** 55.70%. Signal Split is balanced (BUY: 202, SELL:228)
 
-## What is does
+## What it does
 Downloads 10 years of daily OHLCV (Open, High, Low, Close, Volume) data via yfinance, engineers 9 technical indicators as features, then trains a single-layer LSTM classifier on 60-day rolling windows to predict next-day price direction. Output is a BUY or SELL signal with a predicted probability.
 ## Features used
 Return , MA7, MA21, Volatility, Volume_change, RSI, MACD, MACD_Histogram, Bollinger Band Width- all scaled with MinMaxScaler before training.
